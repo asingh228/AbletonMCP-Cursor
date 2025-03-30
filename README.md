@@ -84,7 +84,7 @@ npx -y @smithery/cli install @ahujasid/ableton-mcp --client claude
 
 In **Cursor**, go to:
 
-`Settings → MCP`
+`Settings → MCP → Add new global MCP server`
 
 Paste this:
 
@@ -100,6 +100,8 @@ Paste this:
     }
 }
 ```
+Save and Close the file
+
 
 And run this command in Terminal:
 
