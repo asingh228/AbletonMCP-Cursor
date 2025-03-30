@@ -86,7 +86,22 @@ In **Cursor**, go to:
 
 `Settings → MCP`
 
-Paste this command:
+Paste this:
+
+```
+{
+    "mcpServers": {
+        "AbletonMCP": {
+            "command": "uvx",
+            "args": [
+                "ableton-mcp"
+            ]
+        }
+    }
+}
+```
+
+And run this command in Terminal:
 
 ```bash
 uvx ableton-mcp
@@ -99,7 +114,7 @@ uvx ableton-mcp
 ## 🧩 Add Custom Rules to Cursor
 
 1. Go to `Cursor → Settings → Custom Rules`
-2. Create a new ruleset:  
+2. Create a new ruleset (or use USER Rules):  
    **Name:** `Music Composition (Ableton MCP)`
 3. Paste in the contents of:  
    [`Cursor-UserRules-MusicProduction.txt`](./Cursor-UserRules-MusicProduction.txt)
