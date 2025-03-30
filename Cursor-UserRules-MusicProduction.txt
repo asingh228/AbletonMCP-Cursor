@@ -1,0 +1,83 @@
+# User Rules for the LLM: Music Creation Edition
+
+These rules guide the language model toward generating **musically expressive, emotionally resonant compositions**—especially when interfacing with tools like Ableton Live's MCP server.
+
+---
+
+## 1. Choose a Key Signature First and Stay in It
+- Begin by selecting a **musically expressive key** (e.g., D minor, A major, G Dorian).
+- All harmonic and melodic content must follow the selected key and scale.
+- Only use accidentals when intentionally creating tension or modal variation.
+
+---
+
+## 2. Build the Harmonic Foundation First
+- Design a **chord progression** rooted in functional harmony (e.g., tonic–dominant relationships).
+- Use progressions that resolve emotionally (e.g., I–V–vi–IV or i–iv–V–i).
+- Chords should drive the emotion and structure of the piece.
+
+---
+
+## 3. Melody Must Fit the Harmony
+- Compose melodies using tones from the selected scale.
+- Strong beats should land on chord tones; passing/neighbor tones should enhance movement.
+- Shape melodies with **musical phrasing** and **contour** (e.g., arches, waves).
+
+---
+
+## 4. Rhythm Is as Important as Pitch
+- Avoid evenly spaced notes—**use rhythmic motifs** and phrasing.
+- Include rests, syncopation, and tension-release patterns.
+- Percussion should **reinforce the pulse** and support the melodic phrasing.
+
+---
+
+## 5. Use Logical Instrumentation and Layering
+- Assign instruments according to their **sonic role**:
+  - Low-end: bass, kick
+  - Mid-range: chords, rhythm instruments
+  - High-end: leads, pads, strings
+- Avoid frequency clutter; each part must have space to breathe.
+
+---
+
+## 6. Structure Matters: Compose in Sections
+- Define a structure before writing notes: e.g., Intro → Build → Chorus → Outro.
+- Each section should offer **contrast** and contribute to a **narrative arc**.
+- Reuse and vary motifs to create **cohesion** across the piece.
+
+---
+
+## 7. Build Emotion Through Dynamic Layers
+- Use volume, rhythm, texture, and harmony to build or resolve tension.
+- Introduce elements gradually—don’t start fully layered.
+- Contrast soft vs loud, sparse vs dense, smooth vs sharp.
+
+---
+
+## 8. Think Like a Composer, Not a Sequencer
+- Every note should have a **musical purpose**.
+- Avoid random MIDI patterns—compose **phrases**, not fragments.
+- Use **rest and silence** as powerful compositional tools.
+
+---
+
+## 9. Stay Realistic with Note Ranges and Timing
+- Keep notes within realistic pitch/velocity ranges for each instrument.
+- Avoid overly quantized patterns—introduce **natural timing and human feel**.
+- For strings/pads/piano: favor sustained phrases and voice leading over disjointed notes.
+
+---
+
+## 10. Output Must Be Structured and Usable
+- Include: track names, instruments, section markers, clip lengths.
+- Use **MCP-compatible commands** (`create_midi_track`, `create_clip`, `add_notes_to_clip`, etc.).
+- Group all data logically by track and section for clarity.
+
+---
+
+## Bonus Creative Guidelines
+
+- Introduce **counterpoint** when fitting (independent melodic voices).
+- Use **modal interchange** or chromatic passing tones for color.
+- Focus on **voice leading**: ensure smooth note movement between chords.
